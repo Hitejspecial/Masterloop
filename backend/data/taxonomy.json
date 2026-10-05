@@ -1,0 +1,1152 @@
+{
+  "taxonomy": [
+    {
+      "id": "ga",
+      "name": "General Aptitude",
+      "code": "GA",
+      "description": "Verbal Ability, Numerical Ability, Reasoning, and Spatial Aptitude.",
+      "topics": [
+        {
+          "id": "ga-verbal",
+          "name": "Verbal Ability",
+          "subtopics": [
+            {
+              "id": "ga-v-grammar",
+              "name": "English Grammar & Tenses"
+            },
+            {
+              "id": "ga-v-vocab",
+              "name": "Sentence Completion & Vocabulary"
+            },
+            {
+              "id": "ga-v-analogy",
+              "name": "Verbal Analogies"
+            },
+            {
+              "id": "ga-v-rc",
+              "name": "Reading Comprehension & Critical Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "ga-quantitative",
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            {
+              "id": "ga-q-numsys",
+              "name": "Number Systems & Arithmetic"
+            },
+            {
+              "id": "ga-q-algebra",
+              "name": "Elementary Algebra & Equations"
+            },
+            {
+              "id": "ga-q-percentages",
+              "name": "Percentages, Profit & Loss"
+            },
+            {
+              "id": "ga-q-ratio",
+              "name": "Ratio, Proportions & Mixtures"
+            },
+            {
+              "id": "ga-q-worktime",
+              "name": "Time, Speed, Distance & Work"
+            },
+            {
+              "id": "ga-q-pnc",
+              "name": "Permutations, Combinations & Probability"
+            }
+          ]
+        },
+        {
+          "id": "ga-analytical",
+          "name": "Analytical & Spatial Reasoning",
+          "subtopics": [
+            {
+              "id": "ga-a-deduction",
+              "name": "Deductive & Inductive Logic"
+            },
+            {
+              "id": "ga-a-seating",
+              "name": "Data Interpretation & Seating Arrangements"
+            },
+            {
+              "id": "ga-a-spatial",
+              "name": "Paper Folding, Mirror Images & Transformations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "em",
+      "name": "Engineering Mathematics",
+      "code": "EM",
+      "description": "Discrete Mathematics, Linear Algebra, Calculus, and Probability.",
+      "topics": [
+        {
+          "id": "em-discrete-logic",
+          "name": "Propositional & First-Order Logic",
+          "subtopics": [
+            {
+              "id": "em-dl-prop",
+              "name": "Truth Tables, Connectives & Equivalences"
+            },
+            {
+              "id": "em-dl-fol",
+              "name": "Predicates & Quantifiers"
+            },
+            {
+              "id": "em-dl-inf",
+              "name": "Rules of Inference & Deductions"
+            }
+          ]
+        },
+        {
+          "id": "em-sets-relations",
+          "name": "Sets, Relations & Functions",
+          "subtopics": [
+            {
+              "id": "em-sr-sets",
+              "name": "Set Algebra & Power Sets"
+            },
+            {
+              "id": "em-sr-rel",
+              "name": "Equivalence Relations & Partial Orders (Posets)"
+            },
+            {
+              "id": "em-sr-lattices",
+              "name": "Lattices & Hasse Diagrams"
+            },
+            {
+              "id": "em-sr-func",
+              "name": "Injective, Surjective & Bijective Functions"
+            }
+          ]
+        },
+        {
+          "id": "em-combinatorics",
+          "name": "Combinatorics & Recurrences",
+          "subtopics": [
+            {
+              "id": "em-cb-counting",
+              "name": "Pigeonhole Principle & Generating Functions"
+            },
+            {
+              "id": "em-cb-recurrence",
+              "name": "Solving Recurrence Relations"
+            }
+          ]
+        },
+        {
+          "id": "em-graph-theory",
+          "name": "Graph Theory",
+          "subtopics": [
+            {
+              "id": "em-gt-conn",
+              "name": "Connectivity, Paths & Cycles"
+            },
+            {
+              "id": "em-gt-matching",
+              "name": "Eulerian & Hamiltonian Graphs"
+            },
+            {
+              "id": "em-gt-trees",
+              "name": "Trees, Spanning Trees & Planar Graphs"
+            },
+            {
+              "id": "em-gt-color",
+              "name": "Graph Coloring & Chromatic Number"
+            }
+          ]
+        },
+        {
+          "id": "em-linear-algebra",
+          "name": "Linear Algebra",
+          "subtopics": [
+            {
+              "id": "em-la-matrix",
+              "name": "Matrices, Determinants & System of Linear Equations"
+            },
+            {
+              "id": "em-la-eigen",
+              "name": "Eigenvalues & Eigenvectors"
+            },
+            {
+              "id": "em-la-spaces",
+              "name": "Vector Spaces, Basis & Rank-Nullity Theorem"
+            }
+          ]
+        },
+        {
+          "id": "em-calculus",
+          "name": "Calculus",
+          "subtopics": [
+            {
+              "id": "em-c-limits",
+              "name": "Limits, Continuity & Differentiability"
+            },
+            {
+              "id": "em-c-mvt",
+              "name": "Mean Value Theorems"
+            },
+            {
+              "id": "em-c-maxima",
+              "name": "Maxima & Minima"
+            }
+          ]
+        },
+        {
+          "id": "em-probability",
+          "name": "Probability & Statistics",
+          "subtopics": [
+            {
+              "id": "em-pr-conditional",
+              "name": "Conditional Probability & Bayes Theorem"
+            },
+            {
+              "id": "em-pr-rv",
+              "name": "Random Variables & Expectation/Variance"
+            },
+            {
+              "id": "em-pr-dist",
+              "name": "Distributions (Uniform, Binomial, Poisson, Normal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dl",
+      "name": "Digital Logic",
+      "code": "DL",
+      "description": "Boolean Algebra, Combinational Circuits, Sequential Circuits, and Number Representations.",
+      "topics": [
+        {
+          "id": "dl-bool",
+          "name": "Boolean Algebra & Minimization",
+          "subtopics": [
+            {
+              "id": "dl-b-canon",
+              "name": "Canonical SOP & POS Forms"
+            },
+            {
+              "id": "dl-b-kmap",
+              "name": "Karnaugh Maps & Implicants"
+            },
+            {
+              "id": "dl-b-dontcare",
+              "name": "Don’t Care Conditions & Minimal Expressions"
+            }
+          ]
+        },
+        {
+          "id": "dl-comb",
+          "name": "Combinational Circuits",
+          "subtopics": [
+            {
+              "id": "dl-c-arith",
+              "name": "Adders, Subtractors & Carry Look-Ahead"
+            },
+            {
+              "id": "dl-c-mux",
+              "name": "Multiplexers & Demultiplexers"
+            },
+            {
+              "id": "dl-c-code",
+              "name": "Encoders, Decoders & Code Converters"
+            }
+          ]
+        },
+        {
+          "id": "dl-seq",
+          "name": "Sequential Circuits",
+          "subtopics": [
+            {
+              "id": "dl-s-ff",
+              "name": "Latches & Flip-Flops (SR, JK, D, T)"
+            },
+            {
+              "id": "dl-s-timing",
+              "name": "Setup Time, Hold Time & Clock Skew"
+            },
+            {
+              "id": "dl-s-counters",
+              "name": "Synchronous & Asynchronous Counters"
+            },
+            {
+              "id": "dl-s-fsm",
+              "name": "Finite State Machines (Mealy & Moore Machines)"
+            }
+          ]
+        },
+        {
+          "id": "dl-num",
+          "name": "Number Representations",
+          "subtopics": [
+            {
+              "id": "dl-n-compl",
+              "name": "1s & 2s Complement Arithmetic"
+            },
+            {
+              "id": "dl-n-fixed",
+              "name": "Fixed Point & Overflow Detection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coa",
+      "name": "Computer Organization & Architecture",
+      "code": "COA",
+      "description": "Instruction Set, Pipelining, Memory Hierarchy, Cache Mapping, and I/O.",
+      "topics": [
+        {
+          "id": "coa-machine",
+          "name": "Machine Instructions & Addressing Modes",
+          "subtopics": [
+            {
+              "id": "coa-m-isa",
+              "name": "Instruction Formats & RISC vs CISC"
+            },
+            {
+              "id": "coa-m-addr",
+              "name": "Addressing Modes & Effective Address Calculation"
+            },
+            {
+              "id": "coa-m-sub",
+              "name": "Subroutine Call & Return Stacks"
+            }
+          ]
+        },
+        {
+          "id": "coa-cpu",
+          "name": "ALU, Data Path & Control Unit",
+          "subtopics": [
+            {
+              "id": "coa-cpu-dp",
+              "name": "Single-Cycle & Multi-Cycle Data Paths"
+            },
+            {
+              "id": "coa-cpu-cu",
+              "name": "Hardwired vs Microprogrammed Control Units"
+            },
+            {
+              "id": "coa-cpu-booth",
+              "name": "Booths Multiplication & IEEE 754 Floating Point"
+            }
+          ]
+        },
+        {
+          "id": "coa-pipeline",
+          "name": "Instruction Pipelining",
+          "subtopics": [
+            {
+              "id": "coa-p-hazards",
+              "name": "Structural, Data & Control Hazards"
+            },
+            {
+              "id": "coa-p-perf",
+              "name": "Pipeline Throughput, Speedup & Efficiency"
+            },
+            {
+              "id": "coa-p-branch",
+              "name": "Branch Prediction & Delay Slots"
+            }
+          ]
+        },
+        {
+          "id": "coa-memory",
+          "name": "Memory Hierarchy & Cache Memory",
+          "subtopics": [
+            {
+              "id": "coa-mem-hier",
+              "name": "RAM, ROM & Memory Interleaving"
+            },
+            {
+              "id": "coa-mem-cache",
+              "name": "Direct, Associative & Set-Associative Mapping"
+            },
+            {
+              "id": "coa-mem-miss",
+              "name": "Hit Ratio, Miss Penalty & Average Memory Access Time (AMAT)"
+            },
+            {
+              "id": "coa-mem-write",
+              "name": "Write-Through vs Write-Back & Replacement Policies"
+            }
+          ]
+        },
+        {
+          "id": "coa-io",
+          "name": "I/O Organization",
+          "subtopics": [
+            {
+              "id": "coa-io-intr",
+              "name": "Interrupts, Vectored Interrupts & Polling"
+            },
+            {
+              "id": "coa-io-dma",
+              "name": "Direct Memory Access (DMA) & Cycle Stealing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pds",
+      "name": "Programming & Data Structures",
+      "code": "PDS",
+      "description": "Programming in C, Recursion, Arrays, Stacks, Queues, Linked Lists, Trees, and Heaps.",
+      "topics": [
+        {
+          "id": "pds-c",
+          "name": "C Programming",
+          "subtopics": [
+            {
+              "id": "pds-c-ptrs",
+              "name": "Pointers, Pointer Arithmetic & Arrays"
+            },
+            {
+              "id": "pds-c-func",
+              "name": "Parameter Passing (Pass by Value vs Reference)"
+            },
+            {
+              "id": "pds-c-recur",
+              "name": "Recursion, Call Stack & Termination"
+            },
+            {
+              "id": "pds-c-struct",
+              "name": "Structures, Unions & Dynamic Memory Allocation"
+            }
+          ]
+        },
+        {
+          "id": "pds-linear",
+          "name": "Linear Data Structures",
+          "subtopics": [
+            {
+              "id": "pds-l-arrays",
+              "name": "Array Addressing & Row/Column Major Order"
+            },
+            {
+              "id": "pds-l-linked",
+              "name": "Singly, Doubly & Circular Linked Lists"
+            },
+            {
+              "id": "pds-l-stacks",
+              "name": "Stacks & Infix/Postfix/Prefix Conversions"
+            },
+            {
+              "id": "pds-l-queues",
+              "name": "Queues, Circular Queues & Deques"
+            }
+          ]
+        },
+        {
+          "id": "pds-trees",
+          "name": "Trees & Search Trees",
+          "subtopics": [
+            {
+              "id": "pds-t-binary",
+              "name": "Binary Trees & Tree Traversals"
+            },
+            {
+              "id": "pds-t-bst",
+              "name": "Binary Search Trees (BST) Insertion, Deletion & Search"
+            },
+            {
+              "id": "pds-t-avl",
+              "name": "AVL Trees & Rotations"
+            },
+            {
+              "id": "pds-t-b-trees",
+              "name": "B-Trees & B+ Trees in Indexing"
+            }
+          ]
+        },
+        {
+          "id": "pds-heaps-hash",
+          "name": "Heaps & Hashing",
+          "subtopics": [
+            {
+              "id": "pds-h-binary-heap",
+              "name": "Min-Heap, Max-Heap & Heapify Operations"
+            },
+            {
+              "id": "pds-h-hash",
+              "name": "Hash Functions, Collision Resolution & Open Addressing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algo",
+      "name": "Algorithms",
+      "code": "ALGO",
+      "description": "Asymptotic Analysis, Divide & Conquer, Greedy, Dynamic Programming, and Graph Algorithms.",
+      "topics": [
+        {
+          "id": "algo-asymp",
+          "name": "Asymptotic Analysis & Recurrences",
+          "subtopics": [
+            {
+              "id": "algo-a-notations",
+              "name": "Big-O, Big-Omega, Theta & Properties"
+            },
+            {
+              "id": "algo-a-masters",
+              "name": "Master Theorem & Substitution Method"
+            }
+          ]
+        },
+        {
+          "id": "algo-divide",
+          "name": "Divide and Conquer & Sorting",
+          "subtopics": [
+            {
+              "id": "algo-d-sorts",
+              "name": "Merge Sort, Quick Sort & Heap Sort"
+            },
+            {
+              "id": "algo-d-search",
+              "name": "Binary Search & Order Statistics"
+            }
+          ]
+        },
+        {
+          "id": "algo-greedy",
+          "name": "Greedy Techniques",
+          "subtopics": [
+            {
+              "id": "algo-g-fractional",
+              "name": "Fractional Knapsack & Activity Selection"
+            },
+            {
+              "id": "algo-g-huffman",
+              "name": "Huffman Coding & Prefix Codes"
+            },
+            {
+              "id": "algo-g-mst",
+              "name": "Minimum Spanning Trees (Kruskal & Prim)"
+            }
+          ]
+        },
+        {
+          "id": "algo-dp",
+          "name": "Dynamic Programming",
+          "subtopics": [
+            {
+              "id": "algo-dp-01knap",
+              "name": "0/1 Knapsack & Subset Sum"
+            },
+            {
+              "id": "algo-dp-lcs",
+              "name": "Longest Common Subsequence (LCS)"
+            },
+            {
+              "id": "algo-dp-mcm",
+              "name": "Matrix Chain Multiplication (MCM)"
+            },
+            {
+              "id": "algo-dp-apsp",
+              "name": "Floyd-Warshall & Bellman-Ford Algorithms"
+            }
+          ]
+        },
+        {
+          "id": "algo-graph",
+          "name": "Graph Search & Shortest Paths",
+          "subtopics": [
+            {
+              "id": "algo-gr-bfs-dfs",
+              "name": "BFS, DFS & Topological Sort"
+            },
+            {
+              "id": "algo-gr-dijkstra",
+              "name": "Dijkstras Shortest Path Algorithm"
+            },
+            {
+              "id": "algo-gr-scc",
+              "name": "Strongly Connected Components (Kosaraju / Tarjan)"
+            }
+          ]
+        },
+        {
+          "id": "algo-complexity",
+          "name": "NP-Completeness",
+          "subtopics": [
+            {
+              "id": "algo-c-p-np",
+              "name": "Classes P, NP, NP-Complete & NP-Hard"
+            },
+            {
+              "id": "algo-c-reduct",
+              "name": "Polynomial-Time Reductions & 3-SAT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toc",
+      "name": "Theory of Computation",
+      "code": "TOC",
+      "description": "Regular Languages, Context-Free Languages, Turing Machines, and Decidability.",
+      "topics": [
+        {
+          "id": "toc-regular",
+          "name": "Regular Languages & Finite Automata",
+          "subtopics": [
+            {
+              "id": "toc-r-dfa-nfa",
+              "name": "DFA, NFA & Equivalence Conversions"
+            },
+            {
+              "id": "toc-r-min",
+              "name": "DFA Minimization (Myhill-Nerode theorem)"
+            },
+            {
+              "id": "toc-r-regex",
+              "name": "Regular Expressions & Arden’s Theorem"
+            },
+            {
+              "id": "toc-r-pump",
+              "name": "Pumping Lemma for Regular Languages"
+            },
+            {
+              "id": "toc-r-closure",
+              "name": "Closure Properties & Decision Properties of RL"
+            }
+          ]
+        },
+        {
+          "id": "toc-cfl",
+          "name": "Context-Free Languages & Pushdown Automata",
+          "subtopics": [
+            {
+              "id": "toc-c-cfg",
+              "name": "Context-Free Grammars, Derivations & Ambiguity"
+            },
+            {
+              "id": "toc-c-pda",
+              "name": "Deterministic & Non-Deterministic PDA (DPDA vs NPDA)"
+            },
+            {
+              "id": "toc-c-pump",
+              "name": "Pumping Lemma for CFLs"
+            },
+            {
+              "id": "toc-c-closure",
+              "name": "Closure & Decision Properties of CFL & DCFL"
+            }
+          ]
+        },
+        {
+          "id": "toc-turing",
+          "name": "Turing Machines & Chomsky Hierarchy",
+          "subtopics": [
+            {
+              "id": "toc-t-tm",
+              "name": "Turing Machine Model & Modifications"
+            },
+            {
+              "id": "toc-t-chomsky",
+              "name": "Chomsky Hierarchy of Languages"
+            },
+            {
+              "id": "toc-t-rec",
+              "name": "Recursive (REC) vs Recursively Enumerable (RE) Languages"
+            }
+          ]
+        },
+        {
+          "id": "toc-decidability",
+          "name": "Decidability & Reducibility",
+          "subtopics": [
+            {
+              "id": "toc-d-halting",
+              "name": "The Halting Problem & Undecidability"
+            },
+            {
+              "id": "toc-d-rices",
+              "name": "Rices Theorem & Non-Trivial Properties"
+            },
+            {
+              "id": "toc-d-pcp",
+              "name": "Post Correspondence Problem (PCP)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd",
+      "name": "Compiler Design",
+      "code": "CD",
+      "description": "Lexical Analysis, Parsing, Syntax Directed Translation, Intermediate Code, and Optimization.",
+      "topics": [
+        {
+          "id": "cd-lexical",
+          "name": "Lexical Analysis",
+          "subtopics": [
+            {
+              "id": "cd-l-tokens",
+              "name": "Tokens, Patterns & Lexemes"
+            },
+            {
+              "id": "cd-l-lex",
+              "name": "LEX / Flex & Regular Expressions in Lexing"
+            }
+          ]
+        },
+        {
+          "id": "cd-parsing",
+          "name": "Syntax Analysis & Parsing",
+          "subtopics": [
+            {
+              "id": "cd-p-topdown",
+              "name": "LL(1) Parsers, FIRST & FOLLOW Sets"
+            },
+            {
+              "id": "cd-p-bottomup",
+              "name": "LR(0), SLR(1), LALR(1) & CLR(1) Parsing"
+            },
+            {
+              "id": "cd-p-conflicts",
+              "name": "Shift-Reduce & Reduce-Reduce Conflicts"
+            },
+            {
+              "id": "cd-p-operator",
+              "name": "Operator Precedence & Ambiguity Handling"
+            }
+          ]
+        },
+        {
+          "id": "cd-sdt",
+          "name": "Syntax-Directed Translation (SDT)",
+          "subtopics": [
+            {
+              "id": "cd-s-attrs",
+              "name": "S-Attributed vs L-Attributed Definitions"
+            },
+            {
+              "id": "cd-s-eval",
+              "name": "Evaluation of Synthesized & Inherited Attributes"
+            }
+          ]
+        },
+        {
+          "id": "cd-codegen",
+          "name": "Intermediate Code Generation & Runtime",
+          "subtopics": [
+            {
+              "id": "cd-c-threeaddr",
+              "name": "Three-Address Code (Quadruples & Triples)"
+            },
+            {
+              "id": "cd-c-runtime",
+              "name": "Activation Records & Storage Allocation"
+            }
+          ]
+        },
+        {
+          "id": "cd-opt",
+          "name": "Code Optimization & Data Flow Analysis",
+          "subtopics": [
+            {
+              "id": "cd-o-local",
+              "name": "Basic Blocks, Flow Graphs & DAGs"
+            },
+            {
+              "id": "cd-o-loop",
+              "name": "Loop Optimization, Dead Code Elimination & Constant Folding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "os",
+      "name": "Operating Systems",
+      "code": "OS",
+      "description": "Processes, Threads, CPU Scheduling, Synchronization, Deadlocks, Memory Management, and File Systems.",
+      "topics": [
+        {
+          "id": "os-process",
+          "name": "Processes, Threads & CPU Scheduling",
+          "subtopics": [
+            {
+              "id": "os-p-pcb",
+              "name": "Process State Transitions, PCB & Context Switching"
+            },
+            {
+              "id": "os-p-fork",
+              "name": "Fork, Exec & Process Creation"
+            },
+            {
+              "id": "os-p-sched",
+              "name": "Scheduling (FCFS, SJF, SRTF, Round Robin, Priority)"
+            }
+          ]
+        },
+        {
+          "id": "os-sync",
+          "name": "Process Synchronization",
+          "subtopics": [
+            {
+              "id": "os-s-crit",
+              "name": "Critical Section Problem & Requirements"
+            },
+            {
+              "id": "os-s-petersons",
+              "name": "Petersons Algorithm & Hardware Solutions (Test-and-Set)"
+            },
+            {
+              "id": "os-s-sem",
+              "name": "Semaphores (Counting & Binary) & Mutex"
+            },
+            {
+              "id": "os-s-classic",
+              "name": "Classical Synchronization (Producer-Consumer, Readers-Writers, Dining Phil)"
+            }
+          ]
+        },
+        {
+          "id": "os-deadlock",
+          "name": "Deadlocks",
+          "subtopics": [
+            {
+              "id": "os-d-cond",
+              "name": "Four Necessary Conditions for Deadlock"
+            },
+            {
+              "id": "os-d-rag",
+              "name": "Resource Allocation Graphs (RAG)"
+            },
+            {
+              "id": "os-d-bankers",
+              "name": "Bankers Algorithm for Deadlock Avoidance"
+            },
+            {
+              "id": "os-d-detect",
+              "name": "Deadlock Detection & Recovery"
+            }
+          ]
+        },
+        {
+          "id": "os-memory",
+          "name": "Memory Management & Virtual Memory",
+          "subtopics": [
+            {
+              "id": "os-m-alloc",
+              "name": "Contiguous Allocation (First Fit, Best Fit, Worst Fit)"
+            },
+            {
+              "id": "os-m-paging",
+              "name": "Paging, Page Tables, Multi-level Paging & TLB"
+            },
+            {
+              "id": "os-m-seg",
+              "name": "Segmentation & Address Translation"
+            },
+            {
+              "id": "os-m-replace",
+              "name": "Page Replacement (FIFO, Optimal, LRU) & Belady’s Anomaly"
+            },
+            {
+              "id": "os-m-thrash",
+              "name": "Thrashing & Working Set Model"
+            }
+          ]
+        },
+        {
+          "id": "os-storage",
+          "name": "Storage & File Systems",
+          "subtopics": [
+            {
+              "id": "os-st-disk",
+              "name": "Disk Scheduling (FCFS, SSTF, SCAN, C-SCAN, LOOK)"
+            },
+            {
+              "id": "os-st-file",
+              "name": "File Allocation (Contiguous, Linked, Indexed / Inode)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dbms",
+      "name": "Databases (DBMS)",
+      "code": "DBMS",
+      "description": "ER Model, Relational Algebra, SQL, Normalization, Transactions, Concurrency, and Indexing.",
+      "topics": [
+        {
+          "id": "dbms-er-rel",
+          "name": "ER Model & Relational Model",
+          "subtopics": [
+            {
+              "id": "dbms-er-diag",
+              "name": "ER Diagrams, Entities, Attributes & Cardinality"
+            },
+            {
+              "id": "dbms-er-map",
+              "name": "Mapping ER Diagrams to Relational Tables"
+            },
+            {
+              "id": "dbms-rel-keys",
+              "name": "Super Keys, Candidate Keys & Primary Keys"
+            }
+          ]
+        },
+        {
+          "id": "dbms-query",
+          "name": "Relational Algebra & SQL",
+          "subtopics": [
+            {
+              "id": "dbms-q-ra",
+              "name": "Relational Algebra (Select, Project, Join, Set Difference, Division)"
+            },
+            {
+              "id": "dbms-q-sql",
+              "name": "SQL Queries, Joins, Aggregation, Group By & Having"
+            },
+            {
+              "id": "dbms-q-sub",
+              "name": "Correlated & Nested Subqueries"
+            },
+            {
+              "id": "dbms-q-trig",
+              "name": "Integrity Constraints, Views & Triggers"
+            }
+          ]
+        },
+        {
+          "id": "dbms-norm",
+          "name": "Functional Dependencies & Normalization",
+          "subtopics": [
+            {
+              "id": "dbms-n-closure",
+              "name": "Attribute Closure & Candidate Key Finding"
+            },
+            {
+              "id": "dbms-n-mincover",
+              "name": "Canonical / Minimal Cover of FDs"
+            },
+            {
+              "id": "dbms-n-forms",
+              "name": "Normal Forms (1NF, 2NF, 3NF, BCNF)"
+            },
+            {
+              "id": "dbms-n-decomp",
+              "name": "Lossless Join & Dependency Preserving Decompositions"
+            }
+          ]
+        },
+        {
+          "id": "dbms-trans",
+          "name": "Transactions & Concurrency Control",
+          "subtopics": [
+            {
+              "id": "dbms-t-acid",
+              "name": "ACID Properties & Transaction States"
+            },
+            {
+              "id": "dbms-t-serial",
+              "name": "Conflict Serializability & Precedence Graphs"
+            },
+            {
+              "id": "dbms-t-view",
+              "name": "View Serializability & Blind Writes"
+            },
+            {
+              "id": "dbms-t-recover",
+              "name": "Recoverable, Cascadeless & Strict Schedules"
+            },
+            {
+              "id": "dbms-t-2pl",
+              "name": "Two-Phase Locking (Basic, Strict, Rigorous 2PL)"
+            },
+            {
+              "id": "dbms-t-ts",
+              "name": "Timestamp Ordering & Thomas Write Rule"
+            }
+          ]
+        },
+        {
+          "id": "dbms-indexing",
+          "name": "File Organization & Indexing",
+          "subtopics": [
+            {
+              "id": "dbms-i-dense",
+              "name": "Primary, Secondary, Dense & Sparse Indexes"
+            },
+            {
+              "id": "dbms-i-btree",
+              "name": "B-Trees & B+ Trees (Order, Heights, Block Accesses)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn",
+      "name": "Computer Networks",
+      "code": "CN",
+      "description": "OSI/TCP-IP, Data Link Layer, Routing, TCP/UDP, Congestion Control, and Application Layer.",
+      "topics": [
+        {
+          "id": "cn-arch",
+          "name": "Network Architectures & Physical Layer",
+          "subtopics": [
+            {
+              "id": "cn-a-layers",
+              "name": "OSI 7-Layer vs TCP/IP Protocol Stack"
+            },
+            {
+              "id": "cn-a-delays",
+              "name": "Transmission, Propagation, Queueing & Processing Delays"
+            },
+            {
+              "id": "cn-a-bw",
+              "name": "Bandwidth-Delay Product"
+            }
+          ]
+        },
+        {
+          "id": "cn-datalink",
+          "name": "Data Link Layer & MAC",
+          "subtopics": [
+            {
+              "id": "cn-dl-flow",
+              "name": "Flow Control (Stop-and-Wait, Go-Back-N, Selective Repeat)"
+            },
+            {
+              "id": "cn-dl-error",
+              "name": "Error Detection (Parity, Checksum, CRC)"
+            },
+            {
+              "id": "cn-dl-mac",
+              "name": "ALOHA (Pure/Slotted) & CSMA/CD, CSMA/CA"
+            },
+            {
+              "id": "cn-dl-eth",
+              "name": "Ethernet Standards, Min Frame Size & Hub/Bridge/Switch"
+            }
+          ]
+        },
+        {
+          "id": "cn-network",
+          "name": "Network Layer & Routing",
+          "subtopics": [
+            {
+              "id": "cn-n-ipv4",
+              "name": "IPv4 Addressing, Subnetting, Supernetting (CIDR)"
+            },
+            {
+              "id": "cn-n-frag",
+              "name": "IPv4 Header & Packet Fragmentation"
+            },
+            {
+              "id": "cn-n-ipv6",
+              "name": "IPv6 Header & Transition Strategies"
+            },
+            {
+              "id": "cn-n-routing",
+              "name": "Distance Vector (RIP), Link State (OSPF) & BGP"
+            },
+            {
+              "id": "cn-n-icmp",
+              "name": "ARP, ICMP, DHCP & NAT Protocols"
+            }
+          ]
+        },
+        {
+          "id": "cn-transport",
+          "name": "Transport Layer & Congestion Control",
+          "subtopics": [
+            {
+              "id": "cn-t-udp",
+              "name": "UDP Header & Connectionless Semantics"
+            },
+            {
+              "id": "cn-t-tcp",
+              "name": "TCP 3-Way Handshake, Connection Teardown & Sequence Numbers"
+            },
+            {
+              "id": "cn-t-cong",
+              "name": "TCP Congestion Control (Slow Start, Congestion Avoidance, Fast Retransmit, Fast Recovery)"
+            },
+            {
+              "id": "cn-t-flow",
+              "name": "TCP Flow Control & Advertised Window"
+            }
+          ]
+        },
+        {
+          "id": "cn-app",
+          "name": "Application Layer & Network Security",
+          "subtopics": [
+            {
+              "id": "cn-app-dns",
+              "name": "DNS Hierarchy, Iterative vs Recursive Queries"
+            },
+            {
+              "id": "cn-app-http",
+              "name": "HTTP 1.0, 1.1, 2.0, Persistent vs Non-Persistent Connections"
+            },
+            {
+              "id": "cn-app-mail",
+              "name": "Email Protocols (SMTP, POP3, IMAP)"
+            },
+            {
+              "id": "cn-app-sec",
+              "name": "Basics of Cryptography, RSA, Diffie-Hellman, SSL/TLS, Firewalls"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakeCategories": [
+    {
+      "id": "CONCEPTUAL",
+      "label": "Conceptual Misunderstanding"
+    },
+    {
+      "id": "CALCULATION",
+      "label": "Calculation Error"
+    },
+    {
+      "id": "CARELESS",
+      "label": "Careless Slip"
+    },
+    {
+      "id": "TIME_MANAGEMENT",
+      "label": "Time Management / Rushed"
+    },
+    {
+      "id": "MISREAD_QUESTION",
+      "label": "Misread Question / Options"
+    },
+    {
+      "id": "GUESSING",
+      "label": "Wild Guessing"
+    },
+    {
+      "id": "INCOMPLETE_KNOWLEDGE",
+      "label": "Incomplete Knowledge / Formula"
+    },
+    {
+      "id": "OTHER",
+      "label": "Other"
+    },
+    {
+      "id": "UNCLASSIFIED",
+      "label": "Unclassified"
+    }
+  ]
+}

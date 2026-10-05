@@ -1,0 +1,22 @@
+{
+  "name": "masterloop-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MasterLoop Express.js backend with MongoDB Mongoose and Gemini AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "nodemailer": "^10.0.15"
+  }
+}
